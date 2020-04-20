@@ -28,7 +28,7 @@ const device = require('./routes/device');
 app.use('/device',device);
 
 app.get('*', (req, res) => {
-    res.send('404 - Not Found');
+    res.send('Welcome to "Device Inventory"');
 })
 
 app.listen(PORT, () => {
