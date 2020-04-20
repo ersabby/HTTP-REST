@@ -1,10 +1,14 @@
+//Title : 
+//Author: Saurabh Patil
+//e-mail: er.saurabhpatil@gmail.com
+
 const express = require('express');
 const bodyparser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const PORT = 8080;
 
-mongoose.connect('mongodb://localhost/iotplatform',
+mongoose.connect('mongodb://localhost/devices',
     {
         useCreateIndex: true,
         useNewUrlParser: true
