@@ -1,0 +1,5 @@
+{
+	"name":"RaspberryPi",
+	"description":"Single board computer",
+	"state":"1"
+}
